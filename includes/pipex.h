@@ -6,7 +6,7 @@
 /*   By: hsilverb <hsilverb@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 12:22:34 by hsilverb          #+#    #+#             */
-/*   Updated: 2023/06/27 18:13:55 by hsilverb         ###   ########lyon.fr   */
+/*   Updated: 2023/06/27 18:40:10 by hsilverb         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@
 
 typedef struct s_commands
 {
-	char	*path
-	char	*cmd;
-	char	*cmd_path;
-	char	**cmd_opt;
-
+	char				*path
+	char				*cmd;
+	char				*cmd_path;
+	char				**cmd_opt;
+	struct s_commands	*next;
 }				t_commands
 
 typedef struct s_struct
