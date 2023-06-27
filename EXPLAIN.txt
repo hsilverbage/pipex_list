@@ -1,0 +1,31 @@
+TO DO LIST
+
+STEP 1 -> SPLIT PATH FROM ENV PUT IN A STRUCT THAT I BZERO AND BE ABLE TO EXCUTE THE FIRST CMD
+
+
+
+
+
+
+
+
+
+
+HERE YOU WILL FIND ALL THE USEFUL INFO
+
+------------FORK-----------
+<unistd.h>
+
+pid_t	fork(void);
+
+fork creates a new process by duplicating the calling process.  The new process is referred to as the child process.
+The calling process is referred to as the parent process.
+
+-> RETURN VALUES FROM FORK // STORED IN pid_t VALUE
+	< 0 = error
+	0 = child
+	+1 = parent
+
+------------PID_T-----------
+
+pid_t	pid; // Stocke le retour de fork

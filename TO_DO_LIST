@@ -1,0 +1,6 @@
+
+I ABSOLUTELY NEED TO MANAGE SERVERAL OPTION, THEREFORE CHANGE OPT IN STUCT, MAYBE TRY OUT A *** or maybe a linked list is better
+
+HANDLE OPTIONS IF FULL PATH IN ARGV
+
+ARGV [1++] == "" return empty arg 
